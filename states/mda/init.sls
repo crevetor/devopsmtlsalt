@@ -1,0 +1,2 @@
+sensible-mda:
+  pkg.installed

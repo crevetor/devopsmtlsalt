@@ -1,0 +1,17 @@
+ubuntu_cloudca_small:
+    - demoweb1:
+        grains:
+            role: web
+            django-apps:
+                - devopsblog
+    - demoweb2:
+        grains:
+            role: web
+            django-apps:
+                - devopsblog
+ubuntu_cloudca_medium:
+    - demodb1:
+        grains:
+            role: db
+            django-apps:
+                - devopsblog
